@@ -24,6 +24,13 @@ fi
 sudo apt-get update -y
 #-----------------------------------------------------------
 
+#Step 4) OSMC installation doesn't have all needed packages-
+sudo apt-get install -y python3-devel
+sudo apt-get install -y python3-wheel
+
+
+#-----------------------------------------------------------
+
 #Step 4) Install gpiozero module----------------------------
 sudo apt-get install -y python3-gpiozero
 #-----------------------------------------------------------
